@@ -1,0 +1,183 @@
+.main{
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+}
+.back{
+  background-color: rgba(0, 0, 0, 0.336);
+  width: 100%;
+  height: 100%;
+}
+
+/* Card Container Styling */
+.custom-card {
+  width: 100%;
+  /* max-width: 350px;  */
+  height: 300px; /* Fixes card height */
+  margin: 15px auto;
+  border: none;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Hover Effect */
+.custom-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Ensures Image Stays Inside the Card */
+.image-container {
+  width: 100%;
+  height: 60%; /* Controls the height of the image container */
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image fills the container without distortion */
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-container img:hover {
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+/* Center Align the Text */
+.card-body {
+  height: 40%; /* Adjust the space for the text */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* collectiion */
+.collection-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  height: 400px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.collection-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+/* .collection-card:hover img {
+  transform: scale(1.1);
+} */
+
+/* .collection-card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+} */
+
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9));
+  color: #fff;
+  padding: 20px;
+  opacity: 1;
+}
+
+.card-img-overlay h5 {
+  margin: 0;
+}
+
+.card-img-overlay p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* popular locations */
+.locality-card {
+  transition: box-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+/* .locality-card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  cursor: pointer;
+} */
+
+.locality-card h5 {
+  font-size: 1.2rem;
+}
+
+.locality-card p {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* accordian */
+.accordion-header .accordion-button {
+  font-size: 1.25rem; /* Increase font size */
+  padding: 1rem; /* Increase padding */
+}
+
+.accordion-body {
+  font-size: 1.1rem; /* Slightly larger body text */
+  padding: 1rem; /* Add spacing for readability */
+}
+
+/* footer */
+footer {
+  background-color: #f8f9fa; /* Light background */
+}
+
+footer h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+footer h6 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+footer ul li {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #6c757d; /* Muted text color */
+}
+
+footer .form-select {
+  font-size: 0.9rem;
+}
+
+footer .bi {
+  font-size: 1.5rem;
+  color: #6c757d;
+  cursor: pointer;
+}
+
+footer .bi:hover {
+  color: #000;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+
